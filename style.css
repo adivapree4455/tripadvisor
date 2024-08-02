@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.contai-out-line{
+    border: 5px solid rgb(13, 231, 60);
+}
+
+.row-out-line{
+    border: 3px solid rgb(32, 32, 124);
+}
+
+.back-grnd{
+    background-color: rgb(43, 186, 139);
+}
+.bg-1{
+    background-color: white;
+}
+
+.bg-2{
+    background-color: rgb(219, 101, 101);
+}
+
+.bg-3{
+    background-color: rgb(216, 207, 27);
+}
+
+.bg-4{
+    background-color: rgb(124, 76, 4);
+}
+
+.bg-5{
+    background-color: rgb(205, 23, 193);
+}
+/* 
+.form input{
+    width: 350px;
+    height: 45px;
+    border-radius: 25px;
+    margin-left: 15%;
+
+} */
+
+.vertical-line{
+    height: 3vh;
+    width: 0.5px;
+    border: 1px solid rgb(78, 75, 75);
+    /* margin-left: 1.5rem; */
+}
+
+
+
+/* USING NAV ADVANCE START HERE */
+.input-area{
+    width: 400px;
+    margin-left: 20%;
+}
+
+.sign-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background: black;
+
+}
+
+
+
+/* USING NAV ADVANCE END HERE */
+
+
+/* USING HEADER START HERE */
+.bck-imgi{
+    background-image: url("/images/hero_optimized_2\ \(1\).jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.circle-symbole{
+    width: 15px;
+    height: 15px;
+}
+/* USING HEADER END HERE */
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: black;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+    left: 0;
+    background: rgb(24, 124, 28);
+}
+
+
+/* USING SECTION-ONE */
+.responsive-line {
+    border: none;
+    border-top: 2px solid black; /* Customize the thickness and color */
+    margin: 20px auto; /* Center the line and add spacing */
+    width: 80%; /* Default width */
+}
+
+@media (max-width: 1200px) {
+    .responsive-line {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .responsive-line {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-line {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-line {
+        width: 80%;
+    }
+}
+
+
+.img-thumbnail{
+    width: 500px;
+    height: 500px;
+}
+
+.for-btn{
+    width: 200px;
+    height: 50px;
+    background: sandybrown;
+    border-radius: 15px;
+    border: 3px solid orangered;
+}
+
+.box-1{
+    width: 270px;
+    height: 50px;
+    background: rgb(239, 239, 97);
+    margin-top: 10px;
+}
+
+.box-2{
+    width: 270px;
+    height: 50px;
+    background: rgb(235, 207, 67);
+    margin-top: 10px;
+}
+ 
+
+.box-3{
+    width: 270px;
+    height: 50px;
+    background: rgb(211, 140, 26);
+    margin-top: 10px;
+}
+
+
+.box-4{
+    width: 320px;
+    height: 80px;
+    background: rgb(183, 77, 25);
+    margin-top: 10px;
+}
+
+
+.box-5{
+    width: 270px;
+    height: 50px;
+    background: rgb(238, 238, 110);
+    margin-top: 10px;
+}
+
+
+.box-6{
+    width: 270px;
+    height: 50px;
+    background: rgb(104, 104, 15);
+    margin-top: 10px;
+}
+
+
+.box-7{
+    width: 270px;
+    height: 50px;
+    background: rgb(233, 233, 8);
+    margin-top: 10px;
+}
+
+
+.sec-bck-imgi{
+    background-image: url("/images/landscape_optimized.png");
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* USING SECTION-ONE END */
+
+
+/* USING SECTION-TWO */
+.box-frame-one{
+    width: 350px;
+    height: 120px;
+    background: rgb(37, 75, 75);
+}
+
+
+.box-frame-two{
+    width: 350px;
+    height: 120px;
+    background: rgb(181, 205, 24);
+    float: end;
+}
+
+
+/* USING SECTION-TWO END */
+
+
+
+
+
+/* USING SECTION-3 */
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: masonry;
+  }
+
+/* USING SECTION-3 END */
+
+
+/* USING SECTION-4 END */
+
+
+
+/* USING REVIEW START HERE */
+/* .input-area{
+    width: 80%;
+    height: 50px;
+    border: 1px solid blue;
+    align-self: center;
+} */
+
+.search-icon{
+    position: absolute;
+    top: 21rem;
+}
+ 
+/* USING REVIEW END HERE */
+
+
+
+.search-iconn{
+    position: absolute;
+    top: 15.5rem;
+    left: 48rem;
+}
+
+.form-select-one{
+    width: 170px;
+    height: 35px;
+}
+
+
